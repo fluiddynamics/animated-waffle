@@ -15,7 +15,7 @@ addons:
     - gcc-multilib
 
 install:
-- echo install
+- opam
 
 script:
 - echo hello
