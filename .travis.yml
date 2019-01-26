@@ -15,7 +15,9 @@ addons:
     - gcc-multilib
 
 install:
-- opam
+- opam install js_of_ocaml
 
 script:
+- git clone https://github.com/coq/coq
+- git checkout v8.9
 - echo hello
