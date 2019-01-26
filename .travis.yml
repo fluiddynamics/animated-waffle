@@ -21,5 +21,7 @@ install:
 script:
 - git clone https://github.com/coq/coq
 - cd coq
-- git checkout V8.9.0
+- git checkout v8.9
+- ls bin
+- ./configure --help
 - echo hello
