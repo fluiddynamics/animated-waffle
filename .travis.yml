@@ -1,0 +1,21 @@
+dist: trusty
+sudo: required
+language: ocaml
+cache:
+  apt: true
+  directories:
+  - $HOME/.opam
+addons:
+  apt:
+    sources:
+    - avsm
+    packages:
+    - opam
+    - aspcud
+    - gcc-multilib
+
+install:
+- echo install
+
+script:
+- echo hello
