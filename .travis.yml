@@ -18,7 +18,8 @@ addons:
 install:
 - opam init -y
 - eval $(opam env)
-- opam install camlp5
+- opam install -y camlp5
+- opam install -y num
 - opam install -y js_of_ocaml
 
 script:
