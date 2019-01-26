@@ -16,6 +16,7 @@ addons:
 
 install:
 - opam init -y
+- eval $(opam env)
 - opam install -y js_of_ocaml
 
 script:
