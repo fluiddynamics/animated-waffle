@@ -20,5 +20,5 @@ install:
 
 script:
 - git clone https://github.com/coq/coq
-- git checkout v8.8
+- git checkout V8.9.0
 - echo hello
