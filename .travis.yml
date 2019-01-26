@@ -15,6 +15,7 @@ addons:
     - gcc-multilib
 
 install:
+- opam init
 - opam install js_of_ocaml
 
 script:
