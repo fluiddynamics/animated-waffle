@@ -5,6 +5,7 @@ cache:
   apt: true
   directories:
   - $HOME/.opam
+  - $HOME/coq
 addons:
   apt:
     sources:
@@ -24,5 +25,6 @@ script:
 - cd coq
 - git checkout v8.9
 - ls bin
-- ./configure --help
+- ./configure -local -byte-only
+- make
 - echo hello
