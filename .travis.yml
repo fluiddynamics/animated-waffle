@@ -27,7 +27,6 @@ install:
 - echo git checkout v8.9
 - echo ./configure -local -byte-only
 - echo make
-- ls bin
 
 script:
 - pwd
