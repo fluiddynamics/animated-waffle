@@ -28,5 +28,5 @@ install:
 - make
 - ls bin
 
-script
+script:
 - echo hello
