@@ -21,6 +21,7 @@ install:
 - opam install -y camlp5
 - opam install -y num
 - opam install -y js_of_ocaml
+- pwd
 - echo git clone https://github.com/coq/coq
 - cd coq
 - echo git checkout v8.9
