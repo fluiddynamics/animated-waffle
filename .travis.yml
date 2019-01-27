@@ -21,14 +21,15 @@ install:
 - opam install -y camlp5
 - opam install -y num
 - opam install -y js_of_ocaml
-- cd
-- git clone https://github.com/coq/coq
-- cd coq
-- git checkout v8.9
-- ./configure -local -byte-only
-- make
+- echo cd
+- echo git clone https://github.com/coq/coq
+- echo cd coq
+- echo git checkout v8.9
+- echo ./configure -local -byte-only
+- echo make
 - ls bin
 
 script:
 - pwd
+- js_of_ocaml ~/coq/bin/coqtop.byte
 - echo hello
